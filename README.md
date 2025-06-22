@@ -16,6 +16,7 @@ Implemented all the requirements.
   
 ### Admin gets a mail notification on the event of new customer creation
 - Used Laravel's built-in mailable system.
+- Used Queues so that the mailing doesn't interrupt the rest of the application.
 - Used Mailtrap for sending mails.
 
 ### Customers from a specific country and postcode are getting good morning emails at a specific time
