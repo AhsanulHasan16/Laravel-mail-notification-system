@@ -26,11 +26,11 @@ Implemented all the requirements.
 - Indexed the country and postcode field of the address JSON using virtual columns.
 
 ## Installation
-Clone the repo then run: 
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
+- Clone the repo then run: 
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate --seed
 
 Also, don't forget to add your local DB info and mail sending configs in the .env file.
 
