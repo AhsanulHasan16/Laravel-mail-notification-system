@@ -38,9 +38,6 @@ That's all. Thanks.
 
 Author,
 
-
 Yours Truly,
-
-
 
 Md. Ahsanul Hasan.
