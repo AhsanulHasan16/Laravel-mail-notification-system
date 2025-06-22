@@ -24,6 +24,7 @@ Implemented all the requirements.
 
 ### Database Optimization
 - Indexed the country and postcode field of the address JSON using virtual columns.
+- This is really necessary when there are as many as 20 lac rows and these fields have to be accessed daily.
 
 ## Installation
 - Clone the repo then run: 
